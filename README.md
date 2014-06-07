@@ -1,0 +1,4 @@
+RuHash
+======
+
+Hash algorithm
