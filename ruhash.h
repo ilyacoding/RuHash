@@ -33,7 +33,7 @@ std::string ruhash(std::vector<char> v) { // алгоритм хеширован
             int t = prev[j] + prev[j+1]; // складываем пары чисел в одно, тем самым уменьшая размер последовательности в 2 раза
             now.push_back(t);
         }
-        prev = now;
+        prev = now; // промежуточный блок переписываем в выходной вектор
         now.clear();
     }
     std::vector<char> f; // конечный хеш
