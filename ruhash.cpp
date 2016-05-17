@@ -2,14 +2,14 @@
 
 int main() {
     while (true) {
-    std::vector<char> v;
+    std::vector <char> varr;
     char s;
-    while (std::cin>>s) {
+    while (std::cin >> s) {
         if (s == ';') break;
-        v.push_back(s);
+        varr.push_back(s);
     }
     
-    std::cout<<"Hash: "<<ruhash(v)<<std::endl;
+    std :: cout << "Hash: " << ruhash(varr) << std::endl;
     }
     return 0;	
 }
